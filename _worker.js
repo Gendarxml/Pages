@@ -1,7 +1,7 @@
 import { connect } from "cloudflare:sockets";
 
 let isApiReady = false;
-let proxyIP = "103.6.207.108:8080";
+let proxyIP = "8.222.143.82:24245";
 let cachedProxyList = [];
 
 async function getProxyList() {
